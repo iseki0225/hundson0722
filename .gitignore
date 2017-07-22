@@ -1,0 +1,12 @@
+#全てのignore_dirというディレクトリを除外 => 行の最後が/ならディレクトリと認識
+ignore_dir/
+
+#全てのignore_file.txt => 行の最後に/じゃなければファイルと認識
+ignore_file.txt
+
+#ルートディレクトリ直下のignore_file2.txt => 行の最初に/があるなら、パス指定でのファイル、ディレクトリと認識
+/ignore_file2.txt
+
+#○×.ignoreというファイル => *でワイルドカード指定が可能
+*.ignore
+
