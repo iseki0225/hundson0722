@@ -10,3 +10,8 @@ ignore_file.txt
 #○×.ignoreというファイル => *でワイルドカード指定が可能
 *.ignore
 
+#emptyディレクトリ配下のファイルは無視します
+/empty/*
+
+#ただし、.gitkeepは管理します。
+!.gitkeep
